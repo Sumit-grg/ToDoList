@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  border: 1px solid black;
+  margin: 5px auto;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lightgray;
+
+  h2 {
+    padding: 10px;
+  }
+
+  input, button {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  input {
+    width: 300px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+  .addBtn {
+    &:hover {
+      background-color: rgb(138, 133, 133);
+    }
+  }
+}
